@@ -38,7 +38,7 @@ export function HangImage( { imageNumber }: Props ) {
         <img
             src={ images[imageNumber] } 
             alt="Hang image"
-            style={{width: 150}}
+            style={{width: 250}}
         />
     ); //JSX Element
 

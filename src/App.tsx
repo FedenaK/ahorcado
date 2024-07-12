@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { HangImage } from './components/HangImage';
 import { letters } from './helpers/letters';
-import { getRandomWord } from './helpers/getRandomWord';
 
 import Button from 'react-bootstrap/Button';
 
@@ -134,7 +133,7 @@ function App() {
       ))}
       <br /><br />
       <Button id="reintentar" variant="outline-danger" size="lg" onClick={newGame}>
-      {lose ? 'Reintentar' : won ? '¿Otra?' : 'Pasapalabra'}
+      {lose ? 'Reintentar' : won ? '¿Otra?' : 'Cambiar palabra'}
       </Button>
     </div>
   );
